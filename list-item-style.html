@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIST</title>
+    <style>
+        ul{
+            list-style: none;
+            background-image: linear-gradient(45deg, rgba(225, 255, 255, 0.17), rgba(173, 217, 230, 0.27));
+            background-size: 25em;
+            background-repeat: no-repeat;
+            background-position-x: 1em;
+        }
+        ul li:before{
+            background-size: 30px 30px;
+            display: inline-block;
+            width: 30px; 
+            height: 30px;
+            vertical-align: -0.90em;
+            margin: 0.3em;
+            content:"";
+        }
+        ul li:nth-child(1)::before{
+            background-image: url('https://img-premium.flaticon.com/png/512/2922/2922289.png?token=exp=1621203861~hmac=13eb718d121fb04d273f35927547068c');
+        }
+        ul li:nth-child(2)::before{
+            background-image: url('https://img-premium.flaticon.com/png/512/2909/2909549.png?token=exp=1621204589~hmac=cc09c4136002e2aea0fd75424987c2dd');
+        }
+        ul li:nth-child(3)::before{
+            background-image: url('https://img-premium.flaticon.com/png/512/1671/1671534.png?token=exp=1621204550~hmac=08960cc3264fa1ea3668b2adef0ebf2e');
+        }
+        ul li:nth-child(4)::before{
+            background-image: url('https://img-premium.flaticon.com/png/512/1129/1129297.png?token=exp=1621204457~hmac=64190fbc1101bd9827fb3de937f80531');
+        }
+        ul li:nth-child(5)::before{
+            background-image: url('https://img-premium.flaticon.com/png/512/4373/4373613.png?token=exp=1621204772~hmac=f72979a88444e1cef157113aa029ad05');
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Tesla</li>
+        <li>SpaceX</li>
+        <li>NeuraLink</li>
+        <li>OpenAI</li>
+        <li>Boring Company</li>
+    </ul>
+</body>
+</html>
